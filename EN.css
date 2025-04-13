@@ -1,0 +1,97 @@
+
+#menu ul{
+    list-style: none;
+    line-height: 54 px;
+    padding: 0px;
+    justify-content: flex-end;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+#footer {
+    background-color:#87CEEB;
+    text-align:center;
+    clear:both;
+    padding:20px 0;
+    margin: 0; 
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('fond.jpeg');
+    background-size: cover; /* Couvre toute la zone */
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    font-family: Arial, sans-serif;
+}
+.logo{
+    width: 450px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.NES{
+    width: 450px;
+    height: 300px;
+    margin-left: 970px;
+    margin-top: -250px;
+}
+.C1{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 0px;
+    border-radius: 50px;
+    
+}
+.C2{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -100px;
+    border-radius: 50px;
+    
+}
+.C3{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

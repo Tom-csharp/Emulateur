@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Emulateur Numeworks</title>
+        <link rel="stylesheet" href="EN.css">
+        <style>
+			body {
+				background: url('fond.jpeg') center/cover no-repeat fixed;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+    </head>
+
+    <body>
+            <div id="menu">
+               <ul>
+                    <li><a href="acceuil.html">Acceuil</a></li>
+                    <li><a href="tuto.html">Tuto</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="jeux.html">Jeux</a></li>
+                </ul>
+            </div>
+            <img src="logo.png" alt="rien" class="logo"title="logo"/>
+            <a href="#" onclick="downloadFile('NES.nwa')">
+                <img src="NES.png" alt="NES" class="NES" title="Télécharger émulateur NES">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Mario1.nes')">
+                <img src="images/mario1.png" alt="Mario" class="C1" title="Télécharger Mario1">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Mario2.nes')">
+                <img src="images/mario2.png" alt="Mario" class="C2" title="Télécharger Mario2">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Mario3.nes')">
+                <img src="images/mario3.png" alt="Mario" class="C2" title="Télécharger Mario3">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/zelda1.nes')">
+                <img src="images/zelda1.png" alt="Zelda" class="C3" title="Télécharger Zelda1">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/zelda2.nes')">
+                <img src="images/zelda2.png" alt="Zelda" class="C2" title="Télécharger Zelda2">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/megaman1.nes')">
+                <img src="images/megaman1.png" alt="Megaman" class="C2" title="Télécharger Megaman1">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Megaman2.nes')">
+                <img src="images/megaman2.png" alt="Megaman" class="C3" title="Télécharger Megaman2">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/megaman3.nes')">
+                <img src="images/megaman3.png" alt="Megaman" class="C2" title="Télécharger Megaman3">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Castlevania.nes')">
+                <img src="images/CastleVania.png" alt="CastleVania" class="C2" title="Télécharger CastleVania">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Castlevania2.nes')">
+                <img src="images/CastleVania2.jpeg" alt="CastleVania2" class="C3" title="Télécharger CastleVania2">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Castlevania3.nes')">
+                <img src="images/CastleVania3.jpeg" alt="CastleVania3" class="C2" title="Télécharger CastleVania3">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/DuckTales.nes')">
+                <img src="images/DuckTales.png" alt="DuckTales" class="C2" title="Télécharger DuckTales">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/Metroid.nes')">
+                <img src="images/Metroid.jpeg" alt="Metroid" class="C3" title="Télécharger Metroid">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/DuckHunt.nes')">
+                <img src="images/DuckHunt.jpg" alt="DuckHunt" class="C2" title="Télécharger DuckHunt">
+            </a>
+
+            <a href="#" onclick="downloadFile('roms/kirby.nes')">
+                <img src="images/kirby.jpeg" alt="Kirby" class="C2" title="Télécharger Kirby">
+            </a>
+
+            <script>
+                function downloadFile(filePath) {
+                    var link = document.createElement('a');  // Créer un lien
+                    link.href = filePath;  // Définir l'URL du fichier
+                    link.download = filePath.split('/').pop();  // Définir le nom du fichier lors du téléchargement
+                    link.click();  // Simuler le clic pour démarrer le téléchargement
+                }
+            </script>
+
+
+
+            
+        <div id="footer">
+            <p> Copyright &copy; Tom_mathieu.com</p>
+        </div>
+    </body>
+
+
+       
+
+
+
+
+
+
+
+
+
+
